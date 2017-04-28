@@ -1,0 +1,314 @@
+/*--medida para tablets en horiozntal---*/
+@media screen and (max-width:1024px){
+	header nav #in{
+		float:right;
+	    width:33%;
+	    margin-right:31%;
+	}
+	header nav #in li{
+		width:50%;
+		float:right;
+		margin-right:25%;
+	}
+	header nav #in li a:hover{
+		color:#e35555;
+	}
+	header nav #nav_cat {
+		float:right;
+		width:32%;
+		margin-right:33%;
+	}
+	#main #no-slide{
+		display:none;
+	}
+	#main #article_list #articulosca .catego .categor article .art{
+		width:60%;
+		float:left;
+		padding-bottom:10px;
+	}
+	#main #article_list #articulosca .catego .categor1 article .art{
+		width:60%;
+		float:left;
+		padding-bottom:10px;
+	}
+	footer #bar_menu #menu-footer{
+		float:right;
+	    width:33%;
+	    margin-right:31%;
+	}
+    footer #bar_menu #menu-footer li{
+		width:50%;
+		float:right;
+		margin-right:25%;
+	}
+    foooter #bar_menu #menu-footer li a:hover{
+		color:#000000;
+	}
+	footer #fo_me form input[type=text]{
+		width:45%;
+		height:30px;
+		float:left;
+		margin-right:3%;
+		margin-bottom:3%;
+		border:3px solid #ffffff;
+	}
+}
+
+/*-----medida para tablets en vertical----*/
+@media screen and (max-width:768px){
+	header #no_head #descri{
+		display:none;
+	}	
+	header #no_head nav #in li{
+		width:70%;
+		float:right;
+		display:inline;
+		margin-right:15%;
+	}
+	header nav #nav_cat #menu-item-24{
+		width:74%;
+		margin-left:13%;
+		font-family:helvetica;
+		font-weight:300;
+		font-size:1.3rem;
+		text-align: center;
+		border:1px solid #191919;
+	}
+	header nav #nav_cat #menu-item-61{
+		width:84%;
+		margin-left:8%;
+		font-family:helvetica;
+		font-weight:300;
+		font-size:1.3rem;
+		text-align: center;
+		border:1px solid #191919;
+	}
+	#main #article_list #articulos{
+		clear:both;
+		width:93%;
+		margin-right:3%;
+		margin-left:3%;
+		overflow:hidden;
+	}
+	#main #article_list #articulos article{
+		margin-bottom:30px;
+		width:44%;
+		height:220px;
+		float:left;
+		margin-left:3%;
+		margin-right:3%;
+		padding-bottom:40px;
+		text-align:center;
+	}
+	#main #article_list #articulos article .art{
+		width:98%;
+		height:200px;
+		float:right;
+		margin-right:1%;
+		padding-bottom:4px;
+    }
+	#main #article_list #articulosca .catego .imgcat{
+		display:none;
+	}
+	#main #article_list #articulosca .catego .imgcat1{
+		display:none;
+	}
+	#main #article_list #articulosca .catego .categor{
+		width:93%;
+		float:right;
+		margin-right:3%
+	}
+	#main #article_list #articulosca .catego .categor1{
+		width:93%;
+		float:right;
+		margin-right:3%
+	}
+    #main #article_list #articulosca .catego .categor article .art{
+		width:60%;
+		float:left;
+		padding-bottom:10px;
+	}
+	#main #article_list #articulosca .catego .categor1 article .art{
+		width:60%;
+		float:left;
+		padding-bottom:10px;
+	}
+	#main #article_list #ubi #map{
+		width:90%;
+		height:90%;
+		float:right;
+		margin-right:5%;
+		margin-top:15px;
+		background:#D7DC1D;
+	}
+	#main #article_list #articulosca #chi{
+		display:inherit !important;
+	}
+	#main #article_list #articulosca .categori{
+		display:none;
+    }
+	#main #article_list #articulosca #chi .catego a h1{
+		text-align:center;
+		font-family:helvetiva;
+		font-size:1.5rem;
+		color:#131313;
+		width:100%;
+		height:30px;
+		
+    }
+	#main #article_list #articulosca .catego .imgcat1{
+		display:none;
+	}
+	#main #article_list #articulosca .catego .categori{
+		width:93%;
+		float:right;
+		margin-right:3%
+	}
+	#main #article_list #articulosca .catego .categor1{
+		width:93%;
+		float:right;
+		margin-right:3%
+	}
+    #main #article_list #articulosca .catego .categor article .art{
+		width:60%;
+		float:left;
+		padding-bottom:10px;
+	}
+	#main #article_list #articulosca .catego .categor1 article .art{
+		width:60%;
+		float:left;
+		padding-bottom:10px;
+	}
+	footer #fo_arr{
+		height:600px;
+	}
+	footer #fo_arr #fo_ca{
+		width:100%;
+		height:40%;
+	}
+	footer #fo_arr #fo_lo img{
+		display:none;
+	}
+	footer #fo_arr #fo_me{
+		width:90%;
+	}
+	footer #fo_arr #fo_me form{
+		margin-left:5%;
+	}
+	header #slogan #mo{
+		display:none;
+	}
+	header #slogan #vi{
+		width:100%;
+	}
+	header #no_head{
+		height:550px;
+	}
+}
+
+/*-----medida smartphone----*/
+
+@media screen and (max-width:400px){
+	header nav #nav_cat {
+		float:right;
+		width:50%;
+		margin-right:25%;
+	}
+	header nav #nav_cat #menu-item-24{
+		width:74%;
+		margin-left:13%;
+		font-family:helvetica;
+		font-weight:300;
+		font-size:1rem;
+		text-align: center;
+		border:1px solid #191919;
+	}
+	header nav #nav_cat #menu-item-61{
+		width:84%;
+		margin-left:8%;
+		font-family:helvetica;
+		font-weight:300;
+		font-size:1rem;
+		text-align: center;
+		border:1px solid #191919;
+	}
+	#main #article_list #cat {
+		margin-bottom:20px;
+		width:30%;
+		background:#ff5450;
+		
+	}
+	#main #article_list #cat p{
+		font-stretch:expanded;
+		font-weight:bold;
+		font-family:helvetica;
+		font-size:1rem;
+	}
+	#main #article_list #articulos article{
+		margin-bottom:20px;
+		width:98%;
+		height:220px;
+		padding-bottom:40px;
+		text-align:center;
+	}
+	#main #article_list #articulos article .art{
+		width:98%;
+		height:200px;
+		float:right;
+		margin-right:1%;
+		padding-bottom:4px;
+    }
+	#main #article_list #articulosca .catego .categor article .art{
+		width:93%;
+		float:left;
+		margin-left:3%;
+		padding-bottom:10px;
+	}
+	#main #article_list #articulosca .catego .categor1 article .art{
+		width:93%;
+		float:left;
+		margin-left:3%;
+		padding-bottom:10px;
+	}
+	#main #article_list #articulosca .catego .categor article{
+		height:200px;
+	}
+	#main #article_list #articulosca .catego .categor1 article{
+		height:200px;
+	}
+	#main #article_list #articulosca .catego .categor article .art img{
+		height:150px;
+	}
+	#main #article_list #articulosca .catego .categor1 article .art img{
+		height:150px;
+	}
+	#main #article_list #ubi{
+		height:350px;
+		font-size:1rem;
+	}
+    #main #article_list  #pagination{
+		width:40%;
+		margin-right:30%;
+	}
+	footer #bar_menu #menu-footer{
+		float:right;
+	    width:50%;
+	    margin-right:25%;
+	}
+	footer #bar_menu #menu-footer li{
+		width:70%;
+		float:right;
+		margin-right:15%;
+	}
+	header #slogan #vi #vis p{
+		font-size:1.5rem;
+	}
+	header #no_head{
+		height:500px;
+	}
+	
+
+}
+
+/*--foundation--*/
+/*---fotsumi@gmail.com---*/
